@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Jul, 2019, 12:51:38 PM
+    Author     : suku
+*/
+
+body{
+    margin: 0px;
+}
+@font-face{
+    font-family: quicksand;
+    src:url(Quicksand-Medium.ttf);
+}
+@font-face{
+    font-family: rye;
+    src:url(Rye-Regular.ttf);
+}
+@font-face{
+    font-family: ibm;
+    src:url(IBMPlexSerif-LightItalic.ttf);
+}
+@font-face{
+    font-family: day;
+    src:url(Almendra-Italic.ttf);
+}
+@font-face{
+    font-family: fast;
+    src:url(Sahitya-Regular.ttf);
+}
+
+div#m{
+    background: url(back.jpg);
+    width: 1305px;
+}
+div#m img#logo{
+    height:60px;
+    width: 60px;
+    margin-top:20px;
+    margin-left:100px;
+    display: block-inline;
+}
+span#img{
+    color:white;
+    font-family: ibm;
+    font-size: 11px;
+    margin-left: 100px;
+    display: inline;
+    margin-right:550px;
+}
+div#m ul{
+    list-style: none;
+    display: inline;
+}
+div#m ul li{
+    display: inline;
+}
+div#m ul li a{
+    text-decoration: none;
+    font-family: quicksand;
+    font-weight: bold;
+    margin-right: 50px;
+    color: white;
+    font-size: 17px;
+    text-shadow:2px 2px #505152;
+}
+div#m ul li a:hover{
+    color:#adf542
+}
+div#m ul li#sp a{
+    border-radius: 5px;
+    background: #adf542;
+    padding: 15px; 
+    color:#944366;
+    text-shadow:1px 1px #8e8f8d;
+    opacity: 0.8;
+    font-weight: bolder;
+}
+div#m ul li#sp a:hover{
+    opacity: 1;
+    font-weight: bolder;
+}
+h1#title{
+    font-family: rye;
+    color:#adf542;
+    text-shadow:1px 1px black;
+    margin-left: 100px;
+    display: inline;
+    letter-spacing: 1px;
+}
+div#m div span#subtitle{
+    font-family: ibm;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 400px;
+    letter-spacing: 3px;
+    text-shadow:2px 1px #575757;
+}
+div.flexContainer{    
+    display:flex;    
+}
+div.flexContainer > img.line{
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid red;
+    position: absolute;
+}
+div.flexContainer > img#im1{
+    margin-top:20px;
+}
+div.flexContainer > img#im2{
+    margin-top:45px;
+    margin-left: 162px;
+}
+div.flexContainer > img#im3{
+    margin-top:70px;
+    margin-left: 324px;
+}
+div.flexContainer > img#im4{
+    margin-top:95px;
+    margin-left: 486px;
+}
+div.flexContainer > img#im5{
+    margin-top:95px;
+    margin-left: 648px;
+}
+div.flexContainer > img#im6{
+    margin-top:70px;
+    margin-left: 810px;
+}
+div.flexContainer > img#im7{
+    margin-top:45px;
+    margin-left: 972px;
+}
+div.flexContainer > img#im8{
+    margin-top:20px;
+    margin-left: 1134px;
+}
+div#second{
+    background: url(back2.jpg) repeat-x;
+}
+div#second div#hr{
+    height: 30px;
+    background-image: url(hr.png);
+    background-repeat: repeat-x;        
+    background-color: transparent;
+    border: none;       
+}
+video{
+    float:left;
+    height:312px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+div#second div#quote p#d1{
+    font-family: day;
+    font-size: 30px;
+    color:Red;
+    font-weight: bolder;
+    margin-left: 720px;    
+    width: 200px;
+}
+div#second div#quote p#d2{
+    font-family: day;
+    font-size: 30px;
+    color:Red;
+    font-weight: bolder;
+    margin-left: 923px;   
+    width: 250px;
+}
+div#second h1#sec{
+    font-family: rye;
+    color:#b01053;
+    text-align: center;
+    text-shadow:2px 1px white;
+    background: #fad7d7;
+    opacity: 0.8;
+}
+div#second div#menu{
+    display: flex;
+    width: 1305px;
+}
+a{
+    text-decoration: none;
+}
+div#second div#menu > a div{
+    height:100px;
+    width:200px;
+    background: url(bk2.jpg);
+    opacity: 0.8;
+    margin: 20px;
+    border-radius: 5px;
+}
+div#second div#menu > a div p{
+    text-align: center;
+    line-height: 90px;
+    color:white;
+    font-family: fast;
+    text-shadow:2px 1px 3px 3px black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div#third{
+    background: url(bk3.jpg) repeat-x;
+}
+div#third div#hr{
+    height: 30px;
+    background-image: url(hr.png);
+    background-repeat: repeat-x;        
+    background-color: transparent;
+    border: none;       
+}
+div#third div#side{
+    display: flex;
+    flex-direction:column;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+div#third div#side > a div{
+    margin: 10px;    
+    padding: 10px;    
+    border: 1px dotted black;
+    background: url(bk2.jpg);
+    opacity: 0.8;
+    height: 90px;
+     border-radius: 5px;
+}
+
+div#third div#side > a div img{
+ height:100px;
+ width: 100px;
+ float: left;
+}
+div#third div#side > a div p{
+    display: inline;    
+    font-family: fast;
+    color:white;
+    text-shadow:1px 1px black;
+    text-align: right;
+    font-size: 28px;    
+    font-weight: bolder;
+    padding: 5px;
+}
+div#third h1#th{
+    font-family: rye;
+    text-align: right;
+    margin-right: 130px;
+    margin-top: 120px;
+    text-shadow:-2px -4px  5px black;
+    color: #ff9d00;
+}
+footer{
+    background: #800039;
+    padding: 10px;    
+    height: 100px;
+}
+h3{
+    font-family: fast;
+    color: white;
+    display: inline;
+    
+}
+footer table{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+footer table tr td{
+    padding:5px;
+    text-align: center;
+}
+footer a img{     
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Resources\style.css"/>
+        
+    </head>
+    <body>         
+        <div id="m">            
+            <img src="Resources\logo1.png" alt="" id="logo"><br>
+            <span id="img">Taste of Love</span>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" onclick="menu()">Menu</a></li>
+                <li><a href="#" onclick="offer()">Offers</a></li>
+                <li id="sp"><a href="#">Order Now</a></li>
+            </ul>
+            <br><br><br><br><br><br>
+            <div>
+                <h1 id="title">The Lebensmittel</h1><br><br><span id="subtitle">Taste of L&#9825ve . . .</span>
+            </div>
+            <br><br><br><br>
+            <div class="flexContainer">
+                <img src="Resources\f8.jpg" alt="" id="im1" class="line">
+                <img src="Resources\f7.jpg" alt="" id="im2" class="line">
+                <img src="Resources\f6.jpg" alt="" id="im3" class="line">
+                <img src="Resources\f5.jpg" alt="" id="im4" class="line">
+                <img src="Resources\f4.jpg" alt="" id="im5" class="line">
+                <img src="Resources\f3.jpg" alt="" id="im6" class="line">
+                <img src="Resources\f2.jpg" alt="" id="im7" class="line">
+                <img src="Resources\f1.jpg" alt="" id="im8" class="line">
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br>     
+        </div>
+        <div id="second">
+            <div id="hr"></div>
+            <video controls="">
+                <source src="Resources\vid.mp4" type="video/mp4">
+            </video>
+            <div id="quote">
+                <p id="d1">There is no L&#9825VE sincerer than the L&#9825VE of FOOD</p>
+                <p id="d2">Food is Symbolic of L&#9825VE when words are INADEQUATE</p>
+            </div>
+            <br><br><br><br><br>
+            <h1 id="sec">Menu</h1>
+            <div id="menu">
+                <a href=""><div><p>North Indian</p></div></a>
+                <a href=""><div><p>Chinese</p></div></a>
+                <a href=""><div><p>Italian</p></div></a>
+                <a href=""><div><p>South Indian</p></div></a>
+                <a href=""><div><p>Burgers</p></div></a>
+            </div>
+            <div id="menu">
+                <a href=""><div><p>Side Dish</p></div></a>
+                <a href=""><div><p>Dessert</p></div></a>
+                <a href=""><div><p>Beverages</p></div></a>
+                <a href=""><div><p>Salads</p></div></a>
+                <a href=""><div><p>Cakes</p></div></a>
+            </div>
+        </div>
+        <div id="third">
+            <div id="hr"></div>
+            <h1 id="th">Irresistable OFFERS</h1>
+            <div id="side">
+                <a href=""><div><img src="Resources\star.png" alt=""><br><p>40% OFF on Order Above 799</p></div></a>
+                <a href=""><div><img src="Resources\star.png" alt=""><br><p>30% OFF on Order Above 599</p></div></a>
+                <a href=""><div><img src="Resources\star.png" alt=""><br><p>20% OFF on Order Above 399</p></div></a>
+                <a href=""><div><img src="Resources\star.png" alt=""><br><p>10% OFF on Order Above 299</p></div></a>             
+
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+        <footer>
+            <table>
+                <tr>
+                    <td colspan="7"><h3>Follow Us</h3></td>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="Resources\twitter.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\whatsapp.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\youtube.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\fb1.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\inst1.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\snapchat.png" alt=""></a></td>
+                    <td><a href=""><img src="Resources\blog.png" alt=""></a></td>
+                </tr>
+            </table>
+
+        </footer>
+        <script type="text/javascript" >
+            function menu() {
+                var ele = document.getElementById('second');
+                ele.scrollIntoView();
+            }
+            function offer() {
+                var ele = document.getElementById('third');
+                ele.scrollIntoView();
+            }
+        </script>
+    </body>
+</html>
